@@ -192,3 +192,21 @@ footer {
   font-size: 14px;
   margin-top: 10px;
 }
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
+}
